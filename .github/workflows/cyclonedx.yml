@@ -12,8 +12,21 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: CycloneDX .NET Generate SBOM
-        uses: CycloneDX/gh-dotnet-generate-sbom@v1.0.1
+        
+      - name: Install .NET SDK
+        uses: actions/setup-dotnet@v1
         with:
-          path: ./*.sln
+          dotnet-version: '8.x' # Adjust to your project's .NET version        
+          
+      - name: Build and Generate CycloneDX BOM
+        run: |
+          dotnet build --configuration Release
+          dotnet CycloneDX <path> -o ${{ github.workspace }}/bom.xml
+        env:
+          DOTNET_CLI_TELEMETRY_OPTOUT: true
+
+      - name: Upload BOM
+        uses: actions/upload-artifact@v2
+        with:
+          name: bom
+          path: ${{ github.workspace }}/bom.xml

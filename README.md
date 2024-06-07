@@ -12,4 +12,4 @@ The ObsoleteEncryptor class will encrypt and decrypt with an obsolete Rijndael a
 The ObsoleteHasher class will hash with the obsolete MD5 algorithm.
 
 ### 3 Serialization
-The ObsoleteSerializer class will serialize with a Json framework with a known security vulnerability.
+The ObsoleteSerializer class will serialize with a Json framework that has a known security vulnerability.

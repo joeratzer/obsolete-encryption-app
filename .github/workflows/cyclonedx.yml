@@ -1,0 +1,19 @@
+name: CycloneDX .NET Generate SBOM
+
+on:
+  push:
+    branches:
+      - main # Change this to your default branch if needed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: CycloneDX .NET Generate SBOM
+        uses: CycloneDX/gh-dotnet-generate-sbom@v1.0.1
+        with:
+          path: ./*.sln

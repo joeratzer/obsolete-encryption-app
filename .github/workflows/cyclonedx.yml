@@ -22,11 +22,25 @@ jobs:
         uses: CycloneDX/gh-dotnet-generate-sbom@v1.0.1
         with:
           path: ./*.sln
-          out: "./ObsoleteEncryptionConsoleApp"
           json: true
+          github-bearer-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload BOM
+      - name: Upload SBOM as Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: bom
-          path: "./ObsoleteEncryptionConsoleApp/sbom.xml"     
+          name: JSON-SBOM
+          path: ./*.json
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          
+      - name: Commit SBOM to Repository
+        run: |
+          git add -f ./*.json
+          git commit -m "Update SBOM" -a || echo "No changes to commit"
+          git push origin HEAD:main
+          
+           
+          

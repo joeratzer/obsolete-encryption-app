@@ -1,6 +1,6 @@
 ﻿using ObsoleteEncryptionModel;
 
-Console.WriteLine("Starting App v1");
+Console.WriteLine("Starting App");
 
 var hasher = new ObsoleteHasher();
 var md5Hash = hasher.GetMd5HashOfText("Text to hash");

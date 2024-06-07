@@ -1,22 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PFUviTJipL7vFhVQtEA9GPZ/wsTOtbQNkqOwVNU8dXEiVq2wKTbtk2OXS9ypx9epS5IFupfQOTL21J5rk9xi3w==",
+  "dgSpecHash": "e1EKpPaSMAMxZUHX+R9UZgFYdEA333XIQZiCI1+U3HJ7edTQK9eLusVcRUs2hLmXWMvbLgjK66brI+W+hLQuAg==",
   "success": true,
-  "projectFilePath": "/Users/jmr/Repos/Test/dotNet/Console/ObsoleteEncryptionApp/ObsoleteEncryptionModel/ObsoleteEncryptionModel.csproj",
+  "projectFilePath": "/Users/jmr/Repos/Test/dotNet/Console/ObsoleteEncryptionApp/ObsoleteEncryptionConsoleApp/ObsoleteEncryptionConsoleApp.csproj",
   "expectedPackageFiles": [
     "/Users/jmr/.nuget/packages/newtonsoft.json/3.5.8/newtonsoft.json.3.5.8.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Newtonsoft.Json' 3.5.8 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
-      "libraryId": "Newtonsoft.Json",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

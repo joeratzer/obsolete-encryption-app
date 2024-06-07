@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wk9cgQB5AoVDu+nJ5xIxZJFLZE7BaSoB3tjhpZkc8+KWPjT+R6obRKl/Wl3QdB/tXJ6uX5OupnWw7PRS/aHpAA==",
+  "dgSpecHash": "oz+r/9JFxSe+5tXU0hsJSzi8gIXlc1l87V6o41msWvVjfbZVhvbnLjplQkP03ip7DjLNIIohhtlh45l+M8JoSA==",
   "success": true,
   "projectFilePath": "/Users/jmr/Repos/Test/dotNet/Console/ObsoleteEncryptionApp/ObsoleteEncryptionTests/ObsoleteEncryptionTests.csproj",
   "expectedPackageFiles": [

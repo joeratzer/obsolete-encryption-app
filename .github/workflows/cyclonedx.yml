@@ -22,11 +22,3 @@ jobs:
         uses: CycloneDX/gh-dotnet-generate-sbom@v1.0.1
         with:
           path: ./*.sln
-          out: "./ObsoleteEncryptionConsoleApp"
-          json: true
-
-      - name: Upload BOM
-        uses: actions/upload-artifact@v2
-        with:
-          name: bom
-          path: "./ObsoleteEncryptionConsoleApp/sbom.xml"     

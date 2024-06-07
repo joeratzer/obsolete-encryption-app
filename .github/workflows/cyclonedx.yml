@@ -27,4 +27,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: bom
-          path: ./sbom.xml     
+          path: ./ObsoleteEncryptionConsoleApp/sbom.json     

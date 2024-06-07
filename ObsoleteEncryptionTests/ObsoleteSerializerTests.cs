@@ -1,3 +1,5 @@
+using System;
+using NUnit.Framework;
 using ObsoleteEncryptionModel;
 
 namespace ObsoleteEncryptionTests;

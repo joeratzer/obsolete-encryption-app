@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsoleteEncryptionConsoleApp",
+"ObsoleteEncryptionConsoleApp\ObsoleteEncryptionConsoleApp.csproj", "{F957CB07-ABD1-40D8-BB99-EA1EFD249588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsoleteEncryptionModel", "ObsoleteEncryptionModel\ObsoleteEncryptionModel.csproj", "{72996ACA-124A-41C0-AA9A-05BB5C3B5C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsoleteEncryptionConsoleApp", "ObsoleteEncryptionConsoleApp\ObsoleteEncryptionConsoleApp.csproj", "{86E32843-C5C0-4E8A-B380-87709FDAECDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsoleteEncryptionTests", "ObsoleteEncryptionTests\ObsoleteEncryptionTests.csproj", "{44484B5C-6C24-4B52-B73E-8570F6983B7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F957CB07-ABD1-40D8-BB99-EA1EFD249588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F957CB07-ABD1-40D8-BB99-EA1EFD249588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F957CB07-ABD1-40D8-BB99-EA1EFD249588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F957CB07-ABD1-40D8-BB99-EA1EFD249588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72996ACA-124A-41C0-AA9A-05BB5C3B5C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72996ACA-124A-41C0-AA9A-05BB5C3B5C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72996ACA-124A-41C0-AA9A-05BB5C3B5C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72996ACA-124A-41C0-AA9A-05BB5C3B5C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E32843-C5C0-4E8A-B380-87709FDAECDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E32843-C5C0-4E8A-B380-87709FDAECDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E32843-C5C0-4E8A-B380-87709FDAECDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E32843-C5C0-4E8A-B380-87709FDAECDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44484B5C-6C24-4B52-B73E-8570F6983B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44484B5C-6C24-4B52-B73E-8570F6983B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44484B5C-6C24-4B52-B73E-8570F6983B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44484B5C-6C24-4B52-B73E-8570F6983B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

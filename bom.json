@@ -1,0 +1,567 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:c012c23b-2936-464e-a66b-22b03de7c96e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-06-07T16:08:18Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "CycloneDX module for .NET",
+        "version": "3.0.8.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "ObsoleteEncryptionApp@0.0.0",
+      "name": "ObsoleteEncryptionApp",
+      "version": "0.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/coverlet.collector@6.0.0",
+      "author": "tonerdo",
+      "name": "coverlet.collector",
+      "version": "6.0.0",
+      "description": "Coverlet is a cross platform code coverage library for .NET, with support for line, branch and method coverage.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8775F1A8267D44F6EC42B26AC9EC7EE29CCC6DE504B39E986E022CEB12C0E763FEB10799C32FF4126FB2353A6CC7504B42537604464DE568200262809A67DEE0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/coverlet.collector@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/coverlet-coverage/coverlet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/coverlet-coverage/coverlet.git",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CodeCoverage@17.8.0",
+      "author": "Microsoft",
+      "name": "Microsoft.CodeCoverage",
+      "version": "17.8.0",
+      "description": "Microsoft.CodeCoverage package brings infra for collecting code coverage from vstest.console.exe and \u0022dotnet test\u0022.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "BBFB44E01038C77DC33C175478C5F1107BDA23536CFC212C14060385C5E41145411550462F6665924883788FBF66477D2F517ACB28C51FAD53C0F895CEEC288C"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.CodeCoverage@17.8.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NET.Test.Sdk@17.8.0",
+      "author": "Microsoft",
+      "name": "Microsoft.NET.Test.Sdk",
+      "version": "17.8.0",
+      "description": "The MSbuild targets and properties for building .NET test projects.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F211F2610137CD114621BD6C8418E52A64149AF37C176A79F418892FADB6D5DBA31EA4622A95C67E50B32A92FB1B1D5D7FB980502C5C9570DCC4C3258C6787E9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NET.Test.Sdk@17.8.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+      "author": "Microsoft",
+      "name": "Microsoft.NETCore.Platforms",
+      "version": "1.1.0",
+      "description": "Provides runtime information required to resolve target framework, platform, and runtime specific implementations of .NETCore packages. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6BF892C274596FE2C7164E3D8503B24E187F64D0B7BEC6D9B05EB95F04086FCEB7A85EA6B2685D42DC465C52F6F0E6F636C0B3FDDAC48F6F0125DFD83E92D106"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.8.0",
+      "author": "Microsoft",
+      "name": "Microsoft.TestPlatform.ObjectModel",
+      "version": "17.8.0",
+      "description": "The Microsoft Test Platform Object Model.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "17119C472FD87FF721677F92A801693EAB53A1897582150C26A60429C99EB1764628E7BA895B40E3B10B9EDC00F803B18316A6FDC906FFE54DBD2D04AC63DB33"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.8.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.8.0",
+      "author": "Microsoft",
+      "name": "Microsoft.TestPlatform.TestHost",
+      "version": "17.8.0",
+      "description": "Testplatform host executes the test using specified adapter.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "39FB1549FD23FC2C7B4F5525043FC1152B8C62CC813A88C9701F33A666041C6690DADD455899D247FEF5E6DF372D17F081D6098839086007B2C10618E187AC7A"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.8.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/microsoft/vstest",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NETStandard.Library@2.0.0",
+      "author": "Microsoft",
+      "name": "NETStandard.Library",
+      "version": "2.0.0",
+      "description": "A set of standard .NET APIs that are prescribed to be used and supported together. \nd318b764a689cfe285d8484bda918646905664e7 \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "E3D64072B9CD9F9E86209C06A22688ECDA7070427C9A35327D2A9560824C0E1381CCF7BC1D21D2EF8B301761F4BFC7F38FBA712DF7188D2F4FE4F748AAC4D0C7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/standard/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": ".NET Foundation and Contributors",
+      "purl": "pkg:nuget/NETStandard.Library@2.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "author": "James Newton-King",
+      "name": "Newtonsoft.Json",
+      "version": "13.0.1",
+      "description": "Json.NET is a popular high-performance JSON framework for .NET",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "83731B662EAF05379A23F8446EF47BBC111349DD4358B7BD8B51383FE9CF637E2FE62F78CEA52A0D7BDD582DC6FBBB5837D4A7B1D53DCF37A0AE7473E21EE7B1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 James Newton-King 2008",
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.newtonsoft.com/json",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/JamesNK/Newtonsoft.Json",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@3.5.8",
+      "author": "James Newton-King",
+      "name": "Newtonsoft.Json",
+      "version": "3.5.8",
+      "description": "Json.NET is a popular high-performance JSON framework for .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "131375DD86E9F1CD768703B3BC79EB54979BF88F6C47662074750698842F53787ED801C6114D0989E150D1CF131025F806067FFBA6923007B979AF0B30BCA47A"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Newtonsoft.Json@3.5.8"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NuGet.Frameworks@6.5.0",
+      "author": "Microsoft",
+      "name": "NuGet.Frameworks",
+      "version": "6.5.0",
+      "description": "NuGet\u0027s understanding of target frameworks.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3F97626AF018FA9B03F06751054BE2C4E8DBD0D5329DE21662B36F3336849838BF5AF7D3721643FAA6EA90935F836CF502661573953176CFF33D4D829D953D56"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/NuGet.Frameworks@6.5.0",
+      "externalReferences": [
+        {
+          "url": "https://aka.ms/nugetprj",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/NuGet/NuGet.Client",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit@3.14.0",
+      "author": "Charlie Poole, Rob Prouse",
+      "name": "NUnit",
+      "version": "3.14.0",
+      "description": "NUnit is a unit-testing framework for all .NET languages with a strong TDD focus.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5D711925B947C9E4A9F53F6B5D769BC4A702EFD72BCFF6B4FE4FE51A724544A5266D02317FDB5FE5E312F924CEBE31549E5EEB2C5781C9C2F35C3E4E31AE3484"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2023 Charlie Poole, Rob Prouse",
+      "purl": "pkg:nuget/NUnit@3.14.0",
+      "externalReferences": [
+        {
+          "url": "https://nunit.org/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/nunit/nunit",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit.Analyzers@3.9.0",
+      "author": "NUnit",
+      "name": "NUnit.Analyzers",
+      "version": "3.9.0",
+      "description": "Code analyzers and fixes for NUnit 3",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "89C31115ABE95B056CE78963257D286779F8A75EBEFEED323E4DC224D883D2AF561AFABA346CDE8D5FEBEC6C8ADCF3127F3696286AA239F3E99F1938CE8AECF9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2018-2023 NUnit project",
+      "purl": "pkg:nuget/NUnit.Analyzers@3.9.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/nunit/nunit.analyzers",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/nunit/nunit.analyzers",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit3TestAdapter@4.5.0",
+      "author": "Charlie Poole, Terje Sandstrom",
+      "name": "NUnit3TestAdapter",
+      "version": "4.5.0",
+      "description": "NUnit3 adapter for running tests in Visual Studio and DotNet. Works with NUnit 3.x, use the NUnit 2 adapter for 2.x tests.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "BE32FD672C3AB18BC948F7A6D9C41F79BDABC1FD8D2B6AD9106C14499B35A613EBF05A720959AAE4507C2CC10ADAB45E79F48AA731C6506C716D300193D69154"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2011-2021 Charlie Poole, 2014-2023 Terje Sandstrom",
+      "purl": "pkg:nuget/NUnit3TestAdapter@4.5.0",
+      "externalReferences": [
+        {
+          "url": "https://docs.nunit.org/articles/vs-test-adapter/Index.html",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/nunit/nunit3-vs-adapter",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection.Metadata@1.6.0",
+      "author": "Microsoft",
+      "name": "System.Reflection.Metadata",
+      "version": "1.6.0",
+      "description": "This packages provides a low-level .NET (ECMA-335) metadata reader and writer. It\u0027s geared for performance and is the ideal choice for building higher-level libraries that intend to provide their own object model, such as compilers.\n\nCommonly Used Types:\nSystem.Reflection.Metadata.MetadataReader\nSystem.Reflection.PortableExecutable.PEReader\nSystem.Reflection.Metadata.Ecma335.MetadataBuilder\nSystem.Reflection.PortableExecutable.PEBuilder\nSystem.Reflection.PortableExecutable.ManagedPEBuilder\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "excluded",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F5227666EDC6BB1DA78B8A8E86A68E9BD647CAA2EC6A1580C14A4A5E1FE5CFDE3BDAF0D8C23DC210C405A55F83CEB6ADD1A9ADAB149DC065B38CFDDC9B01BA20"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Reflection.Metadata@1.6.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "ObsoleteEncryptionApp@0.0.0",
+      "dependsOn": [
+        "pkg:nuget/Newtonsoft.Json@3.5.8",
+        "pkg:nuget/coverlet.collector@6.0.0",
+        "pkg:nuget/Microsoft.NET.Test.Sdk@17.8.0",
+        "pkg:nuget/NUnit@3.14.0",
+        "pkg:nuget/NUnit.Analyzers@3.9.0",
+        "pkg:nuget/NUnit3TestAdapter@4.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/coverlet.collector@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.CodeCoverage@17.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NET.Test.Sdk@17.8.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.CodeCoverage@17.8.0",
+        "pkg:nuget/Microsoft.TestPlatform.TestHost@17.8.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.8.0",
+      "dependsOn": [
+        "pkg:nuget/NuGet.Frameworks@6.5.0",
+        "pkg:nuget/System.Reflection.Metadata@1.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.8.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.8.0",
+        "pkg:nuget/Newtonsoft.Json@13.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/NETStandard.Library@2.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Newtonsoft.Json@3.5.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NuGet.Frameworks@6.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NUnit.Analyzers@3.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/NUnit@3.14.0",
+      "dependsOn": [
+        "pkg:nuget/NETStandard.Library@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/NUnit3TestAdapter@4.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Reflection.Metadata@1.6.0",
+      "dependsOn": []
+    }
+  ]
+}

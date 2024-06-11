@@ -33,7 +33,7 @@ jobs:
       - uses: advanced-security/cbom-action/analyze@v1
         with:
           repositoryNameWithOwner: ${{ fromJson(matrix.repository).nameWithOwner }}
-          language: ${{ fromJson(matrix.repository).language }}
+          language: csharp
   add-workflow-summary:
     name: CBOM results
     runs-on: ubuntu-latest

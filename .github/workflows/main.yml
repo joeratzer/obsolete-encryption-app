@@ -13,6 +13,18 @@ jobs:
     outputs:
       repositories: ${{ steps.build-matrix-action.outputs.repositories }}
     steps:
+      - name: Install .NET SDK
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '8.x' # Adjust to your project's .NET version        
+
+      - name: CycloneDX .NET Generate SBOM
+        uses: CycloneDX/gh-dotnet-generate-sbom@v1.0.1
+        with:
+          path: ./*.sln
+          json: true
+          github-bearer-token: ${{ secrets.GITHUB_TOKEN }}
+    
       - uses: advanced-security/cbom-action/build-matrix@v1
         id: build-matrix-action
         with:

@@ -1,3 +1,5 @@
+using NUnit.Framework;
+
 namespace ObsoleteEncryptionTests;
 
 public class ObsoleteSymmetricEncryptorTests

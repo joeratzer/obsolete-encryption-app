@@ -1,4 +1,5 @@
-﻿using ObsoleteEncryptionModel;
+﻿using System;
+using ObsoleteEncryptionModel;
 
 Console.WriteLine("Starting App");
 

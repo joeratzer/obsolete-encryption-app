@@ -63,19 +63,19 @@
     ]
   },
   "packageFolders": {
-    "/home/runner/.nuget/packages/": {}
+    "/Users/jmr/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/work/obsolete-encryption-app/obsolete-encryption-app/ObsoleteEncryptionConsoleApp/ObsoleteEncryptionConsoleApp.csproj",
+      "projectUniqueName": "/Users/jmr/Repos/Test/dotNet/Console/ObsoleteEncryptionApp/ObsoleteEncryptionConsoleApp/ObsoleteEncryptionConsoleApp.csproj",
       "projectName": "ObsoleteEncryptionConsoleApp",
-      "projectPath": "/home/runner/work/obsolete-encryption-app/obsolete-encryption-app/ObsoleteEncryptionConsoleApp/ObsoleteEncryptionConsoleApp.csproj",
-      "packagesPath": "/home/runner/.nuget/packages/",
-      "outputPath": "/home/runner/work/obsolete-encryption-app/obsolete-encryption-app/ObsoleteEncryptionConsoleApp/obj/",
+      "projectPath": "/Users/jmr/Repos/Test/dotNet/Console/ObsoleteEncryptionApp/ObsoleteEncryptionConsoleApp/ObsoleteEncryptionConsoleApp.csproj",
+      "packagesPath": "/Users/jmr/.nuget/packages/",
+      "outputPath": "/Users/jmr/Repos/Test/dotNet/Console/ObsoleteEncryptionApp/ObsoleteEncryptionConsoleApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/runner/.nuget/NuGet/NuGet.Config"
+        "/Users/jmr/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -87,8 +87,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/runner/work/obsolete-encryption-app/obsolete-encryption-app/ObsoleteEncryptionModel/ObsoleteEncryptionModel.csproj": {
-              "projectPath": "/home/runner/work/obsolete-encryption-app/obsolete-encryption-app/ObsoleteEncryptionModel/ObsoleteEncryptionModel.csproj"
+            "/Users/jmr/Repos/Test/dotNet/Console/ObsoleteEncryptionApp/ObsoleteEncryptionModel/ObsoleteEncryptionModel.csproj": {
+              "projectPath": "/Users/jmr/Repos/Test/dotNet/Console/ObsoleteEncryptionApp/ObsoleteEncryptionModel/ObsoleteEncryptionModel.csproj"
             }
           }
         }
@@ -97,11 +97,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -123,7 +118,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/runner/.dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

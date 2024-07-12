@@ -3,6 +3,11 @@
 bin/
 obj/
 
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
 # Common node modules locations
 /node_modules
 /wwwroot/node_modules

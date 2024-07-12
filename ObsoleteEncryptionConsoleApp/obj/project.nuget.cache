@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SEkLYusb6dQ=",
+  "dgSpecHash": "e1EKpPaSMAMxZUHX+R9UZgFYdEA333XIQZiCI1+U3HJ7edTQK9eLusVcRUs2hLmXWMvbLgjK66brI+W+hLQuAg==",
   "success": true,
-  "projectFilePath": "/home/runner/work/obsolete-encryption-app/obsolete-encryption-app/ObsoleteEncryptionConsoleApp/ObsoleteEncryptionConsoleApp.csproj",
+  "projectFilePath": "/Users/jmr/Repos/Test/dotNet/Console/ObsoleteEncryptionApp/ObsoleteEncryptionConsoleApp/ObsoleteEncryptionConsoleApp.csproj",
   "expectedPackageFiles": [
-    "/home/runner/.nuget/packages/newtonsoft.json/3.5.8/newtonsoft.json.3.5.8.nupkg.sha512"
+    "/Users/jmr/.nuget/packages/newtonsoft.json/3.5.8/newtonsoft.json.3.5.8.nupkg.sha512"
   ],
   "logs": [
     {

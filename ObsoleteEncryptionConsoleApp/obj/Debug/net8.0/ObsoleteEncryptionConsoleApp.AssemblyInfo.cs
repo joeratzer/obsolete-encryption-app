@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ObsoleteEncryptionConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+737b818168819dfa0b27d2ce765243bc7d871e68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec12738a8bc88477c1f7e4b687ee248f282d0eae")]
 [assembly: System.Reflection.AssemblyProductAttribute("ObsoleteEncryptionConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ObsoleteEncryptionConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

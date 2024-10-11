@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: helloWorldV1
-        uses: joeratzer/js-call-in-action@joeratzer
+        uses: joeratzer/js-call-in-action@2004631
         with:
           what-to-call: 'Test 123'
       # Use the output from the `hello` step
